@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring.Hello;
+package io.github.mongsil3344.ikeeper.bementoring.hello;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

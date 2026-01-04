@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring.User;
+package io.github.mongsil3344.ikeeper.bementoring.user;
 
 import jakarta.persistence.*;
 import lombok.*;
