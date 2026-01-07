@@ -1,17 +1,18 @@
 package io.github.mongsil3344.ikeeper.bementoring.user.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import io.github.mongsil3344.ikeeper.bementoring.user.User;
 
-@Getter
-@Setter
-@AllArgsConstructor
-public class UserResponse {
+/**
+ * 유저 정보 응답 DTO (Record)
+ */
+public record UserResponse(Long id, String name, String email) {
 
-    private Long id;
-
-    private String name;
-
-    private String email;
+    /**
+     * UserResponse DTO를 생성하는 정적 팩토리 메서드
+     * @param user User 엔티티 객체
+     * @return UserResponse DTO
+     */
+    public static UserResponse from(User user) {
+        return new UserResponse(user.getId(), user.getName(), user.getEmail());
+    }
 }
