@@ -3,6 +3,8 @@ package io.github.mongsil3344.ikeeper.bementoring.user;
 import io.github.mongsil3344.ikeeper.bementoring.user.dto.CreateUserRequest;
 import io.github.mongsil3344.ikeeper.bementoring.user.dto.UserResponse;
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,14 +20,26 @@ public class UserController {
 
     private final UserService userService;
 
-    @GetMapping("/finduser")
-    public UserResponse getUser(@RequestParam String email) {
+    /**
+     * 유저 찾기 GET 요청 진입점
+     * 쿼리파라미터에 email이 String으로 담겨서 와야됨
+     * @param email 찾을 유저의 이메일
+     * @return UserResponse (DTO)
+     */
+    @GetMapping("/user")
+    public UserResponse getUser(@RequestParam @NotBlank @Email String email) {
         log.info("find user request received, email: {}", email);
 
         return userService.findUserByEmail(email);
     }
 
-    @PostMapping("/createuser")
+    /**
+     * 유저 생성 POST 요청 진입점
+     * POST 요청 바디에 CreateUserRequest 필드에 맞는 값을 담아서 보내야함
+     * @param req CreateUserRequest (DTO)
+     * @return UserResponse (DTO)
+     */
+    @PostMapping("/user")
     public UserResponse createUser(@RequestBody @Valid CreateUserRequest req) {
         log.info("user create request received: {}", req.email());
 

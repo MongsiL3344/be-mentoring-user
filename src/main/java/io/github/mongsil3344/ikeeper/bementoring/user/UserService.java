@@ -18,7 +18,7 @@ public class UserService {
 
     /**
      * 이메일로 유저를 찾는 메서드
-     * @param email 찾길 원하는 회원의 email
+     * @param email 컨트롤러에서 받은 email
      * @return UserResponse (DTO)
      */
     @Transactional(readOnly = true)
@@ -37,13 +37,14 @@ public class UserService {
 
     /**
      * 유저 생성 메서드
-     * @param req CreateUserRequest (DTO)
+     * @param req 컨트롤러에서 받은 CreateUserRequest (DTO)
      * @return UserResponse (DTO)
      */
     @Transactional
     public UserResponse createUser(CreateUserRequest req) {
 
         // 만약 해당 이메일의 유저가 이미 존재하면 에러 반환
+        // findByEmail을 옵셔널로 선언해뒀기 때문에 isPresent로 null이 아닌지 확인할수있음
         if (userRepository.findByEmail(req.email()).isPresent()) {
             log.error("이미 존재하는 이메일입니다: {}", req.email());
             throw new IllegalArgumentException("User already exists: " + req.email());
@@ -55,7 +56,7 @@ public class UserService {
         // 이름, 이메일, 해싱된 비밀번호로 유저 엔티티 객체 생성
         User user = User.of(req.name(), req.email(), hashedPw);
 
-        // 위에서 만든 유저객체를 DB에 저장
+        // 위에서 만든 유저객체를 JPA 메서드 save로 DB에 저장
         userRepository.save(user);
 
         // 생성된 유저 정보를 응답용 DTO 객체에 담아서 반환

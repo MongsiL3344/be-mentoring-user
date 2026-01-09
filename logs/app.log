@@ -1,36 +1,42 @@
-2026-01-07T14:41:21.052+09:00  INFO 8092 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8092 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:41:21.052+09:00 DEBUG 8092 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:41:21.052+09:00  INFO 8092 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:41:22.178+09:00  WARN 8092 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:41:22.437+09:00  INFO 8092 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.535 seconds (process running for 1.816)
-2026-01-07T14:41:44.340+09:00  INFO 8092 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create request received: testlog@example.com
-2026-01-07T14:41:44.384+09:00  INFO 8092 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create success: testlog@example.com
-2026-01-07T14:44:55.230+09:00  INFO 8170 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8170 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:44:55.231+09:00 DEBUG 8170 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:44:55.231+09:00  INFO 8170 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:44:56.294+09:00  WARN 8170 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:44:56.565+09:00  INFO 8170 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.488 seconds (process running for 1.735)
-2026-01-07T14:47:44.990+09:00  WARN 8170 --- [i-Keeper Backend Mentoring] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2026-01-07T14:47:59.357+09:00  INFO 8278 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8278 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:47:59.357+09:00 DEBUG 8278 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:47:59.358+09:00  INFO 8278 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:48:03.783+09:00  WARN 8278 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:48:04.036+09:00  INFO 8278 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 4.827 seconds (process running for 5.063)
-2026-01-07T14:48:19.429+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8301 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:48:19.430+09:00 DEBUG 8301 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:48:19.430+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:48:20.513+09:00  WARN 8301 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:48:20.774+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.476 seconds (process running for 1.71)
-2026-01-07T14:48:35.583+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create request received: test@example.com
-2026-01-07T14:48:35.629+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create success: test@example.com
-2026-01-07T14:49:10.895+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: {test@example.com}
-2026-01-07T14:49:10.897+09:00 ERROR 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {test@example.com}
-2026-01-07T14:49:10.900+09:00 ERROR 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {test@example.com}] with root cause
+2026-01-09T07:23:47.408+09:00  INFO 22324 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 22324 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T07:23:47.410+09:00 DEBUG 22324 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T07:23:47.410+09:00  INFO 22324 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T07:23:48.657+09:00  WARN 22324 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T07:23:48.940+09:00  INFO 22324 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.699 seconds (process running for 2.026)
+2026-01-09T07:24:04.369+09:00  INFO 22346 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 22346 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T07:24:04.370+09:00 DEBUG 22346 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T07:24:04.370+09:00  INFO 22346 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T07:24:05.461+09:00  WARN 22346 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T07:24:05.725+09:00  INFO 22346 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.494 seconds (process running for 1.749)
+2026-01-09T07:25:20.661+09:00  INFO 22396 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 22396 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T07:25:20.661+09:00 DEBUG 22396 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T07:25:20.662+09:00  INFO 22396 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T07:25:21.757+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T07:25:22.019+09:00  INFO 22396 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.515 seconds (process running for 1.751)
+2026-01-09T07:38:07.537+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s999ms).
+2026-01-09T08:43:35.295+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m27s758ms).
+2026-01-09T09:33:57.246+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m21s951ms).
+2026-01-09T10:34:02.380+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5s134ms).
+2026-01-09T11:02:28.134+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m25s754ms).
+2026-01-09T11:57:23.893+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m55s758ms).
+2026-01-09T12:40:48.075+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m24s183ms).
+2026-01-09T13:27:49.995+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m1s920ms).
+2026-01-09T14:31:41.605+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m51s610ms).
+2026-01-09T15:16:27.845+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m46s240ms).
+2026-01-09T15:21:30.012+09:00  WARN 22396 --- [i-Keeper Backend Mentoring] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m2s167ms).
+2026-01-09T18:26:15.325+09:00  INFO 7162 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 7162 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T18:26:15.326+09:00 DEBUG 7162 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T18:26:15.326+09:00  INFO 7162 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T18:26:16.548+09:00  WARN 7162 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T18:26:16.822+09:00  INFO 7162 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.678 seconds (process running for 1.997)
+2026-01-09T18:26:34.436+09:00  INFO 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: dsafds@naf.com
+2026-01-09T18:26:34.481+09:00 ERROR 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : dsafds@naf.com
+2026-01-09T18:26:34.483+09:00 ERROR 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: dsafds@naf.com] with root cause
 
-java.lang.IllegalArgumentException: User not found: {test@example.com}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
+java.lang.IllegalArgumentException: User not found: dsafds@naf.com
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:31) ~[classes/:na]
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:28) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -43,7 +49,7 @@ java.lang.IllegalArgumentException: User not found: {test@example.com}
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
 	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:31) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -105,14 +111,14 @@ java.lang.IllegalArgumentException: User not found: {test@example.com}
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2026-01-07T14:49:21.521+09:00  INFO 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserController  : find user request received, email: {"test@example.com"}
-2026-01-07T14:49:21.523+09:00 ERROR 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {"test@example.com"}
-2026-01-07T14:49:21.524+09:00 ERROR 8301 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {"test@example.com"}] with root cause
+2026-01-09T18:26:42.337+09:00  INFO 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserController  : find user request received, email: asdfadsfasdf
+2026-01-09T18:26:42.338+09:00 ERROR 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : asdfadsfasdf
+2026-01-09T18:26:42.339+09:00 ERROR 7162 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: asdfadsfasdf] with root cause
 
-java.lang.IllegalArgumentException: User not found: {"test@example.com"}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
+java.lang.IllegalArgumentException: User not found: asdfadsfasdf
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:31) ~[classes/:na]
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:28) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -125,7 +131,7 @@ java.lang.IllegalArgumentException: User not found: {"test@example.com"}
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
 	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:31) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -187,99 +193,20 @@ java.lang.IllegalArgumentException: User not found: {"test@example.com"}
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2026-01-07T14:50:26.601+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8372 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:50:26.601+09:00 DEBUG 8372 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:50:26.601+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:50:27.695+09:00  WARN 8372 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:50:27.957+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.507 seconds (process running for 1.736)
-2026-01-07T14:50:41.865+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create request received: test@example.com
-2026-01-07T14:50:41.900+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserService     : 이미 존재하는 이메일입니다: test@example.com
-2026-01-07T14:50:41.903+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User already exists: test@example.com] with root cause
+2026-01-09T18:29:12.468+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 7249 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T18:29:12.469+09:00 DEBUG 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T18:29:12.469+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T18:29:13.600+09:00  WARN 7249 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T18:29:13.865+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.634 seconds (process running for 1.879)
+2026-01-09T18:29:14.119+09:00  WARN 7249 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.method.annotation.HandlerMethodValidationException: 400 BAD_REQUEST "Validation failure"]
+2026-01-09T18:29:26.044+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: sdafa@fads
+2026-01-09T18:29:26.087+09:00 ERROR 7249 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : sdafa@fads
+2026-01-09T18:29:26.088+09:00 ERROR 7249 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: sdafa@fads] with root cause
 
-java.lang.IllegalArgumentException: User already exists: test@example.com
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.createUser(UserService.java:47) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.createUser(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.createUser(UserController.java:30) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.WeightCalculatorFilter.doFilter(WeightCalculatorFilter.java:229) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.FormFilter.doFilter(FormFilter.java:93) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2026-01-07T14:50:57.268+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: {test@example.com}
-2026-01-07T14:50:57.270+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {test@example.com}
-2026-01-07T14:50:57.271+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {test@example.com}] with root cause
-
-java.lang.IllegalArgumentException: User not found: {test@example.com}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
+java.lang.IllegalArgumentException: User not found: sdafa@fads
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:31) ~[classes/:na]
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:28) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -292,7 +219,7 @@ java.lang.IllegalArgumentException: User not found: {test@example.com}
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
 	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:33) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -354,27 +281,24 @@ java.lang.IllegalArgumentException: User not found: {test@example.com}
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2026-01-07T14:51:16.654+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserController  : find user request received, email: {{test@example.com}}
-2026-01-07T14:51:16.655+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {{test@example.com}}
-2026-01-07T14:51:16.656+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {{test@example.com}}] with root cause
+2026-01-09T18:29:44.254+09:00  WARN 7249 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.method.annotation.HandlerMethodValidationException: 400 BAD_REQUEST "Validation failure"]
+2026-01-09T18:30:25.914+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 7249 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T18:30:25.914+09:00 DEBUG 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T18:30:25.914+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T18:30:26.125+09:00  WARN 7249 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T18:30:26.223+09:00  INFO 7249 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 0.324 seconds (process running for 74.238)
+2026-01-09T18:30:33.183+09:00  INFO 7307 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 7307 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
+2026-01-09T18:30:33.184+09:00 DEBUG 7307 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T18:30:33.184+09:00  INFO 7307 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T18:30:34.307+09:00  WARN 7307 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-09T18:30:34.573+09:00  INFO 7307 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.586 seconds (process running for 1.826)
+2026-01-09T18:30:37.939+09:00 ERROR 7307 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: getUser.email: 공백일 수 없습니다] with root cause
 
-java.lang.IllegalArgumentException: User not found: {{test@example.com}}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
+jakarta.validation.ConstraintViolationException: getUser.email: 공백일 수 없습니다
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:168) ~[spring-context-6.2.15.jar:6.2.15]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
+	at io.github.mongsil3344.ikeeper.bementoring.user.UserController$$SpringCGLIB$$0.getUser(<generated>) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -436,392 +360,3 @@ java.lang.IllegalArgumentException: User not found: {{test@example.com}}
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2026-01-07T14:52:00.242+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-4] i.g.m.i.bementoring.user.UserController  : find user request received, email: {"test@example.com"}
-2026-01-07T14:52:00.244+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-4] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {"test@example.com"}
-2026-01-07T14:52:00.244+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {"test@example.com"}] with root cause
-
-java.lang.IllegalArgumentException: User not found: {"test@example.com"}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.WeightCalculatorFilter.doFilter(WeightCalculatorFilter.java:229) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.FormFilter.doFilter(FormFilter.java:93) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2026-01-07T14:52:19.310+09:00  INFO 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-5] i.g.m.i.bementoring.user.UserController  : find user request received, email: {test@example.com}
-2026-01-07T14:52:19.311+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-5] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {test@example.com}
-2026-01-07T14:52:19.312+09:00 ERROR 8372 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {test@example.com}] with root cause
-
-java.lang.IllegalArgumentException: User not found: {test@example.com}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.WeightCalculatorFilter.doFilter(WeightCalculatorFilter.java:229) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.FormFilter.doFilter(FormFilter.java:93) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2026-01-07T14:53:20.030+09:00  INFO 8456 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8456 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:53:20.031+09:00 DEBUG 8456 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:53:20.031+09:00  INFO 8456 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:53:21.133+09:00  WARN 8456 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:53:21.400+09:00  INFO 8456 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.514 seconds (process running for 1.754)
-2026-01-07T14:54:20.167+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8599 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:54:20.168+09:00 DEBUG 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:54:20.168+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:54:25.006+09:00  WARN 8599 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:54:25.325+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 5.308 seconds (process running for 5.632)
-2026-01-07T14:54:33.013+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create request received: test@example.com
-2026-01-07T14:54:33.050+09:00 ERROR 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserService     : 이미 존재하는 이메일입니다: test@example.com
-2026-01-07T14:54:33.053+09:00 ERROR 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User already exists: test@example.com] with root cause
-
-java.lang.IllegalArgumentException: User already exists: test@example.com
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.createUser(UserService.java:47) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.createUser(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.createUser(UserController.java:30) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.WeightCalculatorFilter.doFilter(WeightCalculatorFilter.java:229) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.FormFilter.doFilter(FormFilter.java:93) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2026-01-07T14:54:43.785+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: {{test@example.com}}
-2026-01-07T14:54:43.787+09:00 ERROR 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserService     : 해당 이메일의 유저가 없습니다 : {{test@example.com}}
-2026-01-07T14:54:43.788+09:00 ERROR 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: User not found: {{test@example.com}}] with root cause
-
-java.lang.IllegalArgumentException: User not found: {{test@example.com}}
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.lambda$findUserByEmail$0(UserService.java:29) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService.findUserByEmail(UserService.java:27) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserService$$SpringCGLIB$$0.findUserByEmail(<generated>) ~[classes/:na]
-	at io.github.mongsil3344.ikeeper.bementoring.user.UserController.getUser(UserController.java:24) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.WeightCalculatorFilter.doFilter(WeightCalculatorFilter.java:229) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.cloud.gateway.server.mvc.filter.FormFilter.doFilter(FormFilter.java:93) ~[spring-cloud-gateway-server-mvc-4.3.3.jar:4.3.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2026-01-07T14:54:49.453+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:53.568+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-4] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:56.323+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-5] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:56.470+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-6] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:56.633+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-7] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:56.770+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-8] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:56.905+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-9] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.180+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-10] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.331+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.467+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-2] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.600+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-3] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.751+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-4] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:57.888+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-5] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:58.057+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-6] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:54:58.176+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-7] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:55:37.835+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-8] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:55:38.777+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-9] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:55:39.250+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-10] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:55:44.779+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : find user request received, email: test@example.com
-2026-01-07T14:57:52.459+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8599 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:57:52.459+09:00 DEBUG 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:57:52.459+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:57:52.672+09:00  WARN 8599 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:57:52.760+09:00  INFO 8599 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 0.352 seconds (process running for 213.069)
-2026-01-07T14:59:00.288+09:00  INFO 8889 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 8889 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T14:59:00.289+09:00 DEBUG 8889 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T14:59:00.289+09:00  INFO 8889 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T14:59:01.562+09:00  WARN 8889 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T14:59:01.835+09:00  INFO 8889 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.697 seconds (process running for 1.964)
-2026-01-07T14:59:21.035+09:00  WARN 8889 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public io.github.mongsil3344.ikeeper.bementoring.user.dto.UserResponse io.github.mongsil3344.ikeeper.bementoring.user.UserController.createUser(io.github.mongsil3344.ikeeper.bementoring.user.dto.CreateUserRequest): [Field error in object 'createUserRequest' on field 'email': rejected value [testexampledasf.com]; codes [Email.createUserRequest.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@a3972a9,.*]; default message [이메일 형식이 잘못되었습니다]] ]
-2026-01-07T17:16:00.136+09:00  INFO 10181 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 10181 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T17:16:00.136+09:00 DEBUG 10181 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T17:16:00.137+09:00  INFO 10181 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T17:16:01.393+09:00  WARN 10181 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T17:16:01.549+09:00  WARN 10181 --- [i-Keeper Backend Mentoring] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 51bac0ea-4294-4b69-b078-c492766f2a56
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-01-07T17:16:01.713+09:00  INFO 10181 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.75 seconds (process running for 2.114)
-2026-01-07T17:17:18.613+09:00  INFO 10261 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 10261 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T17:17:18.613+09:00 DEBUG 10261 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T17:17:18.613+09:00  INFO 10261 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T17:17:19.793+09:00  WARN 10261 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T17:17:20.051+09:00  INFO 10261 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.596 seconds (process running for 1.943)
-2026-01-07T17:30:15.516+09:00  INFO 10582 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Starting IKeeperBackendMentoringApplication using Java 17.0.16 with PID 10582 (/Users/wkdgustjr/Dev/bementoring/out/production/classes started by wkdgustjr in /Users/wkdgustjr/Dev/bementoring)
-2026-01-07T17:30:15.517+09:00 DEBUG 10582 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Running with Spring Boot v3.5.9, Spring v6.2.15
-2026-01-07T17:30:15.517+09:00  INFO 10582 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : No active profile set, falling back to 1 default profile: "default"
-2026-01-07T17:30:16.765+09:00  WARN 10582 --- [i-Keeper Backend Mentoring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-07T17:30:17.066+09:00  INFO 10582 --- [i-Keeper Backend Mentoring] [restartedMain] m.i.b.IKeeperBackendMentoringApplication : Started IKeeperBackendMentoringApplication in 1.725 seconds (process running for 1.997)
-2026-01-07T17:30:39.718+09:00  INFO 10582 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create request received: mongsil@mong.com
-2026-01-07T17:30:40.010+09:00  INFO 10582 --- [i-Keeper Backend Mentoring] [http-nio-8080-exec-1] i.g.m.i.bementoring.user.UserController  : user create success: mongsil@mong.com
