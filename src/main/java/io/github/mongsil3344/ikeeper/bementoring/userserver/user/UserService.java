@@ -1,7 +1,7 @@
-package io.github.mongsil3344.ikeeper.bementoring.user;
+package io.github.mongsil3344.ikeeper.bementoring.userserver.user;
 
-import io.github.mongsil3344.ikeeper.bementoring.user.dto.CreateUserRequest;
-import io.github.mongsil3344.ikeeper.bementoring.user.dto.UserResponse;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.CreateUserRequest;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.UserResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.transaction.annotation.Transactional;

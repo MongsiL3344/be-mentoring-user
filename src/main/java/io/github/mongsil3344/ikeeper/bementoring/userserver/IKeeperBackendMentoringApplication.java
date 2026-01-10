@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring;
+package io.github.mongsil3344.ikeeper.bementoring.userserver;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

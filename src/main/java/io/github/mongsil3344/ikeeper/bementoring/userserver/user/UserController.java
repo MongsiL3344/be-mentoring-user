@@ -1,7 +1,7 @@
-package io.github.mongsil3344.ikeeper.bementoring.user;
+package io.github.mongsil3344.ikeeper.bementoring.userserver.user;
 
-import io.github.mongsil3344.ikeeper.bementoring.user.dto.CreateUserRequest;
-import io.github.mongsil3344.ikeeper.bementoring.user.dto.UserResponse;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.CreateUserRequest;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.UserResponse;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

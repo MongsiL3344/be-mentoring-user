@@ -1,6 +1,6 @@
-package io.github.mongsil3344.ikeeper.bementoring.user.dto;
+package io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto;
 
-import io.github.mongsil3344.ikeeper.bementoring.user.User;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.user.User;
 
 /**
  * 유저 정보 응답 DTO

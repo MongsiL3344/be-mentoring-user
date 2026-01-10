@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring.user;
+package io.github.mongsil3344.ikeeper.bementoring.userserver.user;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

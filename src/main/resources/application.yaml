@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: i-Keeper Backend Mentoring

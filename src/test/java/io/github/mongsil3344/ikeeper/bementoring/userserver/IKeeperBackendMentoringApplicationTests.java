@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring;
+package io.github.mongsil3344.ikeeper.bementoring.userserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

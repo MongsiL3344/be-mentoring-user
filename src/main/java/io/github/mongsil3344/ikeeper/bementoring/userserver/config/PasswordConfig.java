@@ -1,4 +1,4 @@
-package io.github.mongsil3344.ikeeper.bementoring.config;
+package io.github.mongsil3344.ikeeper.bementoring.userserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
