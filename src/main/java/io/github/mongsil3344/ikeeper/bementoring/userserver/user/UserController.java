@@ -7,6 +7,9 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
+@Validated
 @RestController
 @RequiredArgsConstructor
 public class UserController {
@@ -26,11 +30,13 @@ public class UserController {
      * @param email 찾을 유저의 이메일
      * @return UserResponse (DTO)
      */
-    @GetMapping("/user")
-    public UserResponse getUser(@RequestParam @NotBlank @Email String email) {
+    @GetMapping("/users")
+    public ResponseEntity<UserResponse> getUser(@RequestParam @NotBlank @Email String email) {
         log.info("find user request received, email: {}", email);
 
-        return userService.findUserByEmail(email);
+        UserResponse res = userService.findUserByEmail(email);
+
+        return ResponseEntity.ok(res);
     }
 
     /**
@@ -39,13 +45,13 @@ public class UserController {
      * @param req CreateUserRequest (DTO)
      * @return UserResponse (DTO)
      */
-    @PostMapping("/user")
-    public UserResponse createUser(@RequestBody @Valid CreateUserRequest req) {
+    @PostMapping("/users")
+    public ResponseEntity<UserResponse> createUser(@RequestBody @Valid CreateUserRequest req) {
         log.info("user create request received: {}", req.email());
 
         UserResponse res = userService.createUser(req);
 
         log.info("user create success: {}", res.email());
-        return res;
+        return ResponseEntity.created(null).body(res);
     }
 }

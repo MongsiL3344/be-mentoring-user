@@ -1,12 +1,14 @@
 package io.github.mongsil3344.ikeeper.bementoring.userserver.user;
 
+import io.github.mongsil3344.ikeeper.bementoring.userserver.error.exception.ConflictException;
+import io.github.mongsil3344.ikeeper.bementoring.userserver.error.exception.NotFoundException;
 import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.CreateUserRequest;
 import io.github.mongsil3344.ikeeper.bementoring.userserver.user.dto.UserResponse;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.transaction.annotation.Transactional;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Slf4j
 @Service
@@ -28,7 +30,7 @@ public class UserService {
             .orElseThrow(() -> {
                 //만약 찾지 못했을경우 오류발생
                 log.error("해당 이메일의 유저가 없습니다 : {}", email);
-                return new IllegalArgumentException("User not found: " + email);
+                return new NotFoundException("해당 이메일의 유저가 없습니다: " + email);
             });
 
         // 찾은 user를 DTO객체에 담아서 반환
@@ -47,7 +49,7 @@ public class UserService {
         // findByEmail을 옵셔널로 선언해뒀기 때문에 isPresent로 null이 아닌지 확인할수있음
         if (userRepository.findByEmail(req.email()).isPresent()) {
             log.error("이미 존재하는 이메일입니다: {}", req.email());
-            throw new IllegalArgumentException("User already exists: " + req.email());
+            throw new ConflictException("이미 존재하는 이메일입니다: " + req.email());
         }
 
         // 해싱된 비밀번호 생성
