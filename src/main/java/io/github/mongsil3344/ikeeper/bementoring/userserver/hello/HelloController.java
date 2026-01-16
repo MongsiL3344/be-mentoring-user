@@ -1,11 +1,13 @@
 package io.github.mongsil3344.ikeeper.bementoring.userserver.hello;
 
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
+@Slf4j
 @RestController
 public class HelloController {
 
@@ -15,6 +17,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public ResponseEntity<Hello> hello() {
+        log.info("hello controller called");
         return ResponseEntity
             .status(HttpStatus.OK)
             .body(new Hello("Hello World!"));

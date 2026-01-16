@@ -36,6 +36,8 @@ public class UserController {
 
         UserResponse res = userService.findUserByEmail(email);
 
+        log.info("find user success: {}", res);
+
         return ResponseEntity.ok(res);
     }
 
@@ -51,7 +53,7 @@ public class UserController {
 
         UserResponse res = userService.createUser(req);
 
-        log.info("user create success: {}", res.email());
+        log.info("user create success: {}", res);
         return ResponseEntity.created(null).body(res);
     }
 }
