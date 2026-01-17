@@ -29,7 +29,6 @@ public class UserService {
         User user = userRepository.findByEmail(email)
             .orElseThrow(() -> {
                 //만약 찾지 못했을경우 오류발생
-                log.error("해당 이메일의 유저가 없습니다 : {}", email);
                 return new NotFoundException("해당 이메일의 유저가 없습니다: " + email);
             });
 
@@ -48,7 +47,6 @@ public class UserService {
         // 만약 해당 이메일의 유저가 이미 존재하면 에러 반환
         // findByEmail을 옵셔널로 선언해뒀기 때문에 isPresent로 null이 아닌지 확인할수있음
         if (userRepository.findByEmail(req.email()).isPresent()) {
-            log.error("이미 존재하는 이메일입니다: {}", req.email());
             throw new ConflictException("이미 존재하는 이메일입니다: " + req.email());
         }
 

@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.MissingRequestHeaderException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -80,6 +81,20 @@ public class ApiExceptionHandler {
             .collect(Collectors.joining(", "));
 
         log.warn("Constraint violation: {}", errorMessage);
+
+        return ResponseEntity
+            .status(HttpStatus.BAD_REQUEST)
+            .body(ErrorResponse.of(HttpStatus.BAD_REQUEST, errorMessage));
+    }
+
+    /**
+     * 필수 요청 헤더 누락 (400 Bad Request)
+     */
+    @ExceptionHandler(MissingRequestHeaderException.class)
+    public ResponseEntity<ErrorResponse> handleMissingRequestHeader(MissingRequestHeaderException e) {
+        String errorMessage = "필수 헤더가 누락되었습니다: " + e.getHeaderName();
+
+        log.warn("Missing request header: {}", e.getHeaderName());
 
         return ResponseEntity
             .status(HttpStatus.BAD_REQUEST)

@@ -28,6 +28,7 @@ logging:
   level:
     io.github.mongsil3344.ikeeper.bementoring: DEBUG
     root: WARN
+    org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver: OFF
   file:
     name: logs/app.log
   pattern:

@@ -13,6 +13,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,8 +32,11 @@ public class UserController {
      * @return UserResponse (DTO)
      */
     @GetMapping("/users")
-    public ResponseEntity<UserResponse> getUser(@RequestParam @NotBlank @Email String email) {
+    public ResponseEntity<UserResponse> getUser(
+        @RequestHeader(name = "X-Mentoring", required = true) String headerValue,
+        @RequestParam @NotBlank @Email String email) {
         log.info("find user request received, email: {}", email);
+        log.info("Header: {}", headerValue);
 
         UserResponse res = userService.findUserByEmail(email);
 
@@ -48,8 +52,11 @@ public class UserController {
      * @return UserResponse (DTO)
      */
     @PostMapping("/users")
-    public ResponseEntity<UserResponse> createUser(@RequestBody @Valid CreateUserRequest req) {
+    public ResponseEntity<UserResponse> createUser(
+        @RequestHeader(name = "X-Mentoring", required = true) String headerValue,
+        @RequestBody @Valid CreateUserRequest req) {
         log.info("user create request received: {}", req.email());
+        log.info("Header: {}", headerValue);
 
         UserResponse res = userService.createUser(req);
 
