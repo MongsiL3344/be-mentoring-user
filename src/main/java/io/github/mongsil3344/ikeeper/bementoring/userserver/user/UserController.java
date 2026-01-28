@@ -42,7 +42,9 @@ public class UserController {
 
         log.info("find user success: {}", res);
 
-        return ResponseEntity.ok(res);
+        return ResponseEntity
+            .status(HttpStatus.OK)
+            .body(res);
     }
 
     /**
@@ -61,6 +63,8 @@ public class UserController {
         UserResponse res = userService.createUser(req);
 
         log.info("user create success: {}", res);
-        return ResponseEntity.created(null).body(res);
+        return ResponseEntity
+            .status(HttpStatus.CREATED)
+            .body(res);
     }
 }
